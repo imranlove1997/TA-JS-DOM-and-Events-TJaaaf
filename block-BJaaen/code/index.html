@@ -4,8 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper and Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
+    <div class="container">
+      <header>
+        <h1>Rock, Paper, Scissors</h1>
+      </header>
+      <section class="user-section">
+        <div class="user">
+          <p>User</p>
+          <div class="users-choice"></div>
+        </div>
+        <div class="icons user-icons">
+          <div class="icon rock">
+            <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+          </div>
+          <div class="icon paper">
+            <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+          </div>
+          <div class="icon scissor">
+            <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+          </div>
+        </div>
+      </section>
+      <hr/>
+      <section class="computer-section">
+        <div class="computer">
+          <p>Computer</p>
+          <div class="computers-choice"></div>
+        </div>
+        <div class="icons computers-icons">
+          <div class="icon rock">
+            <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+          </div>
+          <div class="icon paper">
+            <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+          </div>
+          <div class="icon scissor">
+            <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+          </div>
+        </div>
+      </section>
+      <div class="box">
+        <div class="score-box">Score: <span class="score">0</span></div>
+        <div class="winner"></div>
+        <button class="reset">Reset</button>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
