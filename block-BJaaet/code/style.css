@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(to top right, rgba(224, 64, 212, 0.93), 
+    rgba(224, 64, 212, 0.68));
+}
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+}
+label {
+    color: white;
+}
+fieldset {
+    border: 0;
+}
+.container {
+    background: linear-gradient(to right, rgba(212, 56, 125, 0.7), rgba(212, 56, 200, 0.6));
+    min-height: 60vh;
+    margin: 2rem 0;
+    width: 100%;
+}
+input {
+    border: 1px solid grey;
+}
+.movie input {
+    width: 10%;
+}
+.list > * {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    vertical-align: bottom;
+    border-bottom: 1px solid red;
+}
+i {
+    font-size: 2rem;
+}
